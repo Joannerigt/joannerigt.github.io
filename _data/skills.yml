@@ -1,4 +1,4 @@
 - name: "Gimp"
-  image_path: "assets/gimp.png"
+  image_path: "https://via.placeholder.com/100"
 - name: "Blender"
-  image_path: "assets/blender.png"
+  image_path: "https://via.placeholder.com/100"

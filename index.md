@@ -20,6 +20,6 @@ Dolor sit amet
 </div>
 <div class="six wide column" markdown="1">
 
-![](https://via.placeholder.com/300x400/)
+<img class="ui centered image" src="https://via.placeholder.com/300x400/" alt="Joanne Rigterink" title="Joanne Rigterink"/>
 
 </div>

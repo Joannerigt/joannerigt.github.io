@@ -86,6 +86,13 @@ footer {
 .portfolio {
     .portfolio-item {
         margin-bottom: 1em;
+        transition-duration: 0.2s;
+        position: relative;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+        }
     }
 }
 
