@@ -1,3 +1,4 @@
+
 - name: "Blender"
   image_path: "images/skills/Blender.png"
 - name: "3DSMax"
@@ -10,3 +11,9 @@
   image_path: "images/skills/Gimp.png"
 - name: "Unity"
   image_path: "images/skills/Unity.png"
+- name: "Unreal engine"
+  image_path: "images/skills/Unreal engine.png"
+- name: "Substance Painter"
+  image_path: "images/skills/Substance Painter.png"
+- name: "Substance Designer"
+  image_path: "images/skills/Substance Designer.png"
