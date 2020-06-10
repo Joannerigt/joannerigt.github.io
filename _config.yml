@@ -3,3 +3,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Joanne Rigterink • 3D Environment Artist" # the name of your site, e.g. ACME Corp.
 email: "joannerigt@gmail.com"
 permalink: none
+portrait_picture_path: "/images/portrait.png"
