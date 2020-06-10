@@ -1,6 +1,6 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Joanne Rigterink • 3D Environment Artist" # the name of your site, e.g. ACME Corp.
-email: "joannerigt@gmail.com"
-permalink: none
-portrait_picture_path: "/images/portrait.png"
+email: "joannerigt@gmail.com" # Shown in the footer and on the index.html 'about' page
+permalink: none # We don't want dates to be included in post links, since we're building a portfolio
+portrait_picture_path: "/images/portrait.png" # The portrait used on the main index.html 'about' page.
