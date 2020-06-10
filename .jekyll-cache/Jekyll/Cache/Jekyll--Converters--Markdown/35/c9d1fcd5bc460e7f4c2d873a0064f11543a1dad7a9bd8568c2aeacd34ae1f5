@@ -1,0 +1,19 @@
+I"N<div class="ui grid">
+<div class="ten wide column">
+
+    <h2 id="personal-story">Personal Story</h2>
+
+    <p>Lorem Ipsum</p>
+
+    <h2 id="outside-interests">Outside interests</h2>
+
+    <p>Dolor sit amet</p>
+
+  </div>
+<div class="six wide column">
+
+    <p><img src="https://via.placeholder.com/200x400/" alt="" /></p>
+
+  </div>
+</div>
+:ET

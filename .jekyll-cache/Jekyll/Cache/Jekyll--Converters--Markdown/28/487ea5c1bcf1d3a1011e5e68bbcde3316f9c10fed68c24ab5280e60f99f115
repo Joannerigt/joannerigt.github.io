@@ -1,0 +1,16 @@
+I"æ<div class="ui three column stackable grid portfolio">
+  
+  <a href="/portfolio/2020/06/10/example.html">
+    <div class="column">
+      <img class="ui fluid rounded image portfolio-item" alt="Example" src="https://via.placeholder.com/400x250" />
+    </div>
+  </a>
+  
+  <a href="/portfolio/2020/06/09/example2.html">
+    <div class="column">
+      <img class="ui fluid rounded image portfolio-item" alt="Example" src="https://via.placeholder.com/400x250" />
+    </div>
+  </a>
+  
+</div>
+:ET

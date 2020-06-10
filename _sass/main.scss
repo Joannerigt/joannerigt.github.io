@@ -1,8 +1,9 @@
-$backgroundColor: #111;
+$backgroundColor: #000;
 $bodyColor: #fff;
 $menuBgColor: #eee;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $menuHeight: 1.5em;
+$footerHeight: 40px;
 
 body {
   background-color: $backgroundColor;
@@ -23,6 +24,11 @@ body {
     padding: .5em;
     font-size: 1.5em;
     margin-bottom: 0;
+
+
+    @media screen and (max-width: 765px) {
+        font-size: 0.7em;
+    }
 }
 
 .main-menu {
@@ -34,8 +40,17 @@ body {
     background-color: $menuBgColor;
     font-size: 1.5em;
 
+    @media screen and (max-width: 765px) {
+        font-size: 0.7em;
+        padding: $menuHeight / 2;
+        margin-top: 1em;
+        margin-bottom: 3em;
+
+    }
+
     a {
         padding: $menuHeight;
+        margin: 1em;
 
         color: black;
         text-decoration: none;
@@ -53,12 +68,30 @@ body {
     }
 }
 
+.content-wrapper {
+    padding-bottom: $footerHeight;
+}
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 0.5em 1em;
+    height: $footerHeight;
 
     background-color: black;
+}
+
+.portfolio {
+    .portfolio-item {
+        margin-bottom: 1em;
+    }
+}
+
+.ui.icon.button.back-to-portfolio-link {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+
+    margin-bottom: 1em;
 }
