@@ -17,7 +17,7 @@
             <nav class="main-menu">
                 {% for menu_page in site.pages %}
                     {% if menu_page.menu_item %}
-                        <a href="{{ menu_page.url }}" class="{% if menu_page.url == page.url or page.categories[0] == menu_page.menu_item %}current{% endif %}">{{ menu_page.menu_item }}</a>
+                <a href="{{ menu_page.url | relative_url }}" class="{% if menu_page.url == page.url or page.categories[0] == menu_page.menu_item %}current{% endif %}">{{ menu_page.menu_item }}</a>
                     {% endif %}
                 {% endfor %}
             </nav>
