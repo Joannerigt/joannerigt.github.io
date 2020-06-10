@@ -1,0 +1,4 @@
+- name: "Gimp"
+  image_path: "assets/gimp.png"
+- name: "Blender"
+  image_path: "assets/blender.png"

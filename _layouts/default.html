@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>{{ site.title }}{% if page.title != "" %} • {{ page.title }} {% endif %}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    </head>
+    <body>
+        <h1>
+            {{ site.title }}
+        </h1>
+
+        <nav class="main-menu">
+            {% for page in site.pages %}
+                {% if page.menu_item %}
+                    <a href="{{ page.url }}">{{ page.menu_item }}</a>
+                {% endif %}
+            {% endfor %}
+        </nav>
+
+        {{ content}}
+
+        <footer>
+            <span class="footer-email">
+                {{site.email}}
+            </span>
+            <div class="footer-social-media">
+                <a href=""></a>
+            </div>
+        </footer>
+
+    </body>
+</html>
