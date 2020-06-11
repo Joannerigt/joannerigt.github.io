@@ -1,0 +1,6 @@
+- name: "LinkedIn"
+  url: "https://linkedin.com/..."
+  image_path: "images/social_media/linkedin2.svg"
+- name: "ArtStation"
+  url: "https://artstation.com/..."
+  image_path: "images/social_media/artstation.svg"

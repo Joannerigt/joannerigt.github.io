@@ -3,7 +3,8 @@ $bodyColor: #fff;
 $menuBgColor: #eee;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $menuHeight: 1.5em;
-$footerHeight: 40px;
+$footerHeight: 55px;
+$socialMediaHoverColor: #13aff0;
 
 body {
   background-color: $backgroundColor;
@@ -69,7 +70,43 @@ body {
 }
 
 .content-wrapper {
-    padding-bottom: $footerHeight;
+    padding-bottom: $footerHeight + 100px;
+}
+
+
+.social-media-icons {
+    display: inline-block;
+    padding: 1em;
+    a {
+        display: inline-block;
+        img {
+            padding: 0.5em;
+            margin-right: 1em;
+
+            width: 4em;
+            height: 4em;
+
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 1em;
+
+            transition: 0.2s;
+
+            &:hover {
+                background-color: $socialMediaHoverColor;
+                transform: translateY(-2px);
+            }
+        }
+    }
+
+    &.below-portrait-image {
+        position: relative;
+        top: -80px;
+
+        text-align: center;
+    }
 }
 
 footer {
@@ -77,11 +114,36 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     height: $footerHeight;
 
     background-color: black;
+
+    & > .social-media-icons {
+        font-size: 0.6em;
+    }
+
+
+    .footer-email {
+	      height: $footerHeight;
+	      display: inline-block;
+	      vertical-align: middle;
+	      line-height: ($footerHeight / 2) + 10px;
+
+        color: white;
+        text-decoration: none;
+
+        transition-duration: 0.2s;
+
+        &:hover {
+            color: $socialMediaHoverColor;
+            text-shadow: 0 3px 3px current;
+            transform: translateY(-2px);
+        }
+    }
+
 }
+
 
 .portfolio {
     .portfolio-item {

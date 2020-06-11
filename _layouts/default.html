@@ -29,11 +29,15 @@
             </div>
 
             <footer>
-                <span class="footer-email">
+                <a class="footer-email" href="mailto:{{ site.email }}">
                     {{site.email}}
-                </span>
-                <div class="footer-social-media">
-                    <a href=""></a>
+                </a>
+                <div class="social-media-icons">
+                    {% for item in site.data.social_media %}
+                    <a href="{{ item.url }}">
+                        <img alt="{{ item.name}}" title="{{ item.name }}" src="{{ item.image_path | relative_url }}"/>
+                    </a>
+                    {% endfor %}
                 </div>
             </footer>
         </div>
