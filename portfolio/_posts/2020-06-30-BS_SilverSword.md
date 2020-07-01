@@ -15,9 +15,23 @@ skyrim's engine does not support pbr shading.skyrim doesn't support pbr textures
 
 concept art created by Suran (real name unknown to me)
 
-<img class="ui right floated image" src="/portfolio/images/Silversword/SilverSword_Ingame.png"/>
-<img class="ui right floated image" src="/portfolio/images/Silversword/SilverSword3.png"/>
-<img class="ui right floated image" src="/portfolio/images/Concept art.png"/>
-<img class="ui right floated image" src="/portfolio/images/Silversword/SilverSwordwireframe.png"/>
-<img class="ui right floated image" src="/portfolio/images/Silversword/Silversword_diffuse.png"/>
-<img class="ui right floated image" src="/portfolio/images/Silversword/Silversword_Normmal.png"/>
+<div class="ui two column grid">
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/SilverSword3.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/SilverSword_Ingame.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/SilverSwordwireframe.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Concept art.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/Silversword_Normmal.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/Silversword_diffuse.png"/>
+  </div>
+</div>
