@@ -22,16 +22,16 @@ concept art created by Suran (real name unknown to me)
   <div class="column">
     <img class="ui image" src="/portfolio/images/Silversword/SilverSword_Ingame.png"/>
   </div>
-  <div class="column">
+    <div class="column">
     <img class="ui image" src="/portfolio/images/Silversword/SilverSwordwireframe.png"/>
   </div>
   <div class="column">
     <img class="ui image" src="/portfolio/images/Concept art.png"/>
   </div>
-  <div class="column">
-    <img class="ui image" src="/portfolio/images/Silversword/Silversword_Normmal.png"/>
+    <div class="column">
+    <img class="ui image" src="/portfolio/images/Silversword/Silversword_diffuse.png"/>
   </div>
   <div class="column">
-    <img class="ui image" src="/portfolio/images/Silversword/Silversword_diffuse.png"/>
+    <img class="ui image" src="/portfolio/images/Silversword/Silversword_Normmal.png"/>
   </div>
 </div>
