@@ -1,34 +1,40 @@
 ---
 layout: portfolio
-title: "Example"
-preview_image_url: "/portfolio/images/age of pirates.PNG"
+title: "Egyptian ship"
+preview_image_url: "/portfolio/images/AgeOfPirates/age of pirates.PNG"
 ---
 
+created for Age of Pirates: ships of battle for Vasco games during my internship there.
 
-<img class="ui huge centered image" src="/portfolio/images/Ships-of-Battle-Age-of-Pirates.jpg"/>
-
-This is an example Portfolio-item.
-
-
-## Some Information
-
-<img class="ui right floated image" src="https://via.placeholder.com/300x300"/>
-
-I worked on ... and ... and ...
-
-also you can see the results in the following picture:
+<img class="ui huge centered image" src="/portfolio/images/AgeOfPirates/ShipBanner.jpg"/>
 
 
+created in 3DsMax and Photoshop.
+made for mobile applications, to save on memory this model is textured using only a diffuse texture.
 
-
-Now, if you want to get your own crazy similar idea, there are many things you could do.
-
-
-Clearly this was a very cool project.
 
 <hr>
 
-## More Information
+<div class="ui two column grid">
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/Screenshot1.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/Screenshot2.png"/>
+  </div>
+    <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/3dsmax.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/Wireframe.png"/>
+  </div>
+    <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/EgyptianShip.png"/>
+  </div>
+  <div class="column">
+    <img class="ui image" src="/portfolio/images/AgeOfPirates/Sails_Diffuse NOALPHA.png"/>
+  </div>
+</div>
 
-you can find more information about this project [here](https://example.com),
-as well as on ... and ...
+
+
