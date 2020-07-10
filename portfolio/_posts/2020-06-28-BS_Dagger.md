@@ -11,7 +11,7 @@ Created for Beyond skyrim Cyrodiil: seat of sundered kings.
 ## Texturing
 
 The model is created within blender. the textures were created using a combination of substance painter and photoshop.
-skyrim's engine does not support pbr shading.skyrim doesn't support pbr textures, therefore I've only used substance painter to bake the normals and create some basic textures. afterwards I continues working in photoshop to create a proper diffuse texture. a texture with shadows and highlights already included.
+skyrim's engine does not support pbr shading.skyrim doesn't support pbr textures, therefore I've only used substance painter to bake the normals and create some basic textures. afterwards I continued working in photoshop to create a proper diffuse texture. a texture with shadows and highlights already included.
 
 concept art created by Suran (real name unknown to me)
 
