@@ -8,8 +8,6 @@ Created for Beyond skyrim Cyrodiil: seat of sundered kings.
 
 <img class="ui huge centered image" src="/portfolio/images/Silversword/Silversword banner.png"/>
 
-## Texturing
-
 The model is created within blender. the textures were created using a combination of substance painter and photoshop.
 skyrim's engine does not support pbr shading.skyrim doesn't support pbr textures, therefore I've only used substance painter to bake the normals and create some basic textures. afterwards I continued working in photoshop to create a proper diffuse texture. a texture with shadows and highlights already included.
 
